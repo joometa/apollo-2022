@@ -1,8 +1,8 @@
 // Apollo Client 생성
-import ApolloClient from 'apollo-boost'
+import ApolloClient from "apollo-boost";
 
 const client = new ApolloClient({
-  uri: 'https://movieql.now.sh/'
-})
+  uri: "https://apollo-movie-server.herokuapp.com/",
+});
 
-export default client
+export default client;
